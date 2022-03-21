@@ -51,9 +51,6 @@ class _HomePageState extends State<HomePage> {
                     ),
                   ),
                 ),
-                onChanged: (value){
-                  
-                },
               ),
             ),
           ),
@@ -137,7 +134,7 @@ class _HomePageState extends State<HomePage> {
                         ),
                         onTap: () {
                           Navigator.pushNamed(context, "about",
-                              arguments: data.pokemon![index]);
+                              arguments: data.pokemon);
                         },
                       ),
                     );
