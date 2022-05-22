@@ -59,7 +59,7 @@ class Pokemon {
         height: json["height"],
         weight: json["weight"],
         candy: json["candy"],
-        candyCount: json["candy_count"] == null ? null : json["candy_count"],
+        candyCount: json["candy_count"],
         egg: json["egg"],
         spawnChance: json["spawn_chance"].toDouble(),
         avgSpawns: json["avg_spawns"].toDouble(),
